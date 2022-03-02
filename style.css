@@ -5,5 +5,61 @@
     --cor3:#123952;
     --cor4:#8196A3;
     --cor5:#34A4EB;
+}
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #34a5eb93;
+}
+
+header{
+    background-color: #8196A3;
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+}
+
+header h1{
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header p{
+    display:inline;
+    font-size: 1em;
+    padding: 10px;
+}
+
+header p#telefone::before{
+    content: "📱";
+}
+
+header p#email::before{
+    content: "📧";
+}
+
+header p#local::before{
+    content: "🗺️";
+}
+
+aside{
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+aside img{
+    width: 30%;
+    display: block;
+}
+aside > p{
+    display: inline;
+    text-align: center;
+    padding: 10px;
 }
