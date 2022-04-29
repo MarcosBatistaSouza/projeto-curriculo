@@ -1,65 +1,33 @@
 @charset "UTF-8";
-:root{
-    --cor1:#184B6B;
-    --cor2:#184B6B;
-    --cor3:#123952;
-    --cor4:#8196A3;
-    --cor5:#34A4EB;
-}
 
 *{
     padding: 0px;
     margin: 0px;
 }
-body{
-    background-color: #34a5eb93;
+
+img{
+    max-width: 20%;
 }
 
-header{
-    background-color: #8196A3;
-    width: 700px;
+#geral{
+    background-image: linear-gradient(to right, rgb(36, 36, 255), rgb(77, 77, 255), rgb(111, 111, 255) );
+    max-height: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    margin: auto;
+    font-weight: bold;
 }
 
 header h1{
-    padding: 10px;
-    font-size: 1.5em;
-    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
 }
 
 header p{
-    display:inline;
-    font-size: 1em;
-    padding: 10px;
-}
-
-header p#telefone::before{
-    content: "📱";
-}
-
-header p#email::before{
-    content: "📧";
-}
-
-header p#local::before{
-    content: "🗺️";
-}
-
-aside{
-    width: 700px;
-    margin: auto;
-    padding: 10px;
-    background-color: white;
-}
-
-aside img{
-    width: 30%;
-    display: block;
-}
-aside > p{
     display: inline;
+    padding-left: 30px;
+    font-size: 1.3em;
     text-align: center;
-    padding: 10px;
+}
+
+#perfil{
 }
